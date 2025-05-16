@@ -10,7 +10,7 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    path:  /srv/nfs/pottsdj        #local reference change this!!!!
+    path:  /srv/nfs/pottsdj2        #local reference change this!!!!
     server: 10.48.10.140
   persistentVolumeReclaimPolicy: Retain
 ---
